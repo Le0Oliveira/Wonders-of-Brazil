@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap');
+
+@font-face {
+    font-family: 'Josefine';
+    src: url('NT_Josefine.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{  /* Essa tag serve para RESETAR as configurações do css*/
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: #ffffff;
+}
+.cabeca{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px;
+}
+.logo {
+    font-family: 'Josefine';
+    font-size: 16px;
+  }
+.logo-2{
+    color: rgb(8, 184, 8);
+    font-family: 'Josefine';
+    font-size: 20px;
+}
+.menu {
+    display: flex;
+    gap: 32px;
+    flex-direction: row;
+  }
+.menu-item{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+    
+  }
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 36px;
+    margin-right: 36px;
+    
+  }
+
+  .conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .trancoso-beach-imagem{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-right: 72px;
+    margin-top: 32px;
+  }
+  .Titulo-principal {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: black;
+}
+
+.texto-explicativo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+.botao-see-more-trancoso {
+    background-color: #00ff84;
+    width: 120px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2F2325;
+}
+
+.Segundo-topico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin-top: 48px;
+    border-top: 0.4px solid #FFF2E7;
+    padding: 24px;
+}
+.planejamento {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #080808;
+}
+.explicacao-planejamento{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+    justify-items: center;
+}
+.autor{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.meu-nome{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
